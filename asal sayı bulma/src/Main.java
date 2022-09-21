@@ -12,6 +12,15 @@ public class Main {
         int sayi = input.nextInt();
         int i;
 
+        if(sayi==1) {
+            System.out.println("Sayi asal degildir");
+            return;
+        }
+        if(sayi<1){
+            System.out.println("Gecersiz sayi");
+            return;
+        }
+
 
             for (i = 1; i < sayi; i++)
             {
@@ -19,8 +28,7 @@ public class Main {
                     sayac++;
                 }
             }
-            if(sayi<2) System.out.println("Gecersiz sayi");
-            System.exit(0);
+
 
             if (sayac >= 2)
             {
