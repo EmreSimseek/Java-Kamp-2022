@@ -5,6 +5,7 @@ public class Product {
     double unitPrice;
     double discount;
     String imageUrl;
+    int unitsInStock;
 
 
 }
