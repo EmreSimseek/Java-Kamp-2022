@@ -19,6 +19,8 @@ public class Main {
                     sayac++;
                 }
             }
+            if(sayi<2) System.out.println("Gecersiz sayi");
+            System.exit(0);
 
             if (sayac >= 2)
             {
