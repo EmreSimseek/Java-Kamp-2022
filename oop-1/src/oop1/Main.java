@@ -1,4 +1,4 @@
-package com.company;
+package oop1;
 
 public class Main {
 
