@@ -10,5 +10,7 @@ public class Main {
     } */
         CustomerManager customerManager = new CustomerManager(new DataBaseLogger());
         customerManager.add();
+
+
     }
 }
